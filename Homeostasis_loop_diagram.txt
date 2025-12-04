@@ -1,0 +1,47 @@
+
+               ┌──────────────────────────────────────────┐
+               │         LIQUID/GEL MEMORY MODULE         │
+               └──────────────────────────────────────────┘
+
+   ┌─────────────────────┐          ┌─────────────────────┐
+   │  Fresh Medium Tank  │          │   Waste Reservoir   │
+   └──────────┬──────────┘          └──────────┬──────────┘
+              │                                │
+       (micro‑pump)                       (micro‑pump)
+              │                                │
+              ▼                                ▼
+        ┌──────────┐                    ┌──────────┐
+        │ Supply   │                    │  Drain   │
+        │ Channel  │                    │ Channel  │
+        └────┬─────┘                    └────┬─────┘
+             │                                │
+             ▼                                ▼
+────────────────────────────────────────────────────────────
+│                    GEL MEMORY BLOCK                      │
+│                                                          │
+│   ┌───────────────┬───────────────┬───────────────┐      │
+│   │Electrode A    │Electrode B    │Electrode C    │ ...  │
+│   └───┬───────────┴───┬───────────┴───┬───────────┘      │
+│       │               │               │                    │
+│    ┌──▼───┐       ┌───▼───┐       ┌───▼───┐                │
+│    │Ion   │       │Gel     │      │Ion     │                │
+│    │Path  │       │Matrix   │      │Cluster │                │
+│    └──┬───┘       └────┬────┘      └──┬────┘                │
+│       │                │              │                     │
+│  (electrical)     (chemical)     (structural)              │
+│   fast state       slow state       long-term state        │
+│                                                          │
+────────────────────────────────────────────────────────────
+             │                                │
+             ▼                                ▼
+   (Impedance Sensors)                (Temperature Sensors)
+
+                    ┌────────────────────────┐
+                    │  Digital Controller    │
+                    │ (MCU/FPGA/ASIC)        │
+                    └────────────────────────┘
+
+                Controls pumps, valves, reads sensors,
+                maintains homeostasis, and manages
+                electrical stimulation & memory read cycles.
+```
