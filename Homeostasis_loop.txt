@@ -1,5 +1,3 @@
-# DIAGRAMS/homeostasis_loop_ascii.txt
-
 ```
  Sensors → Controller → Micro-Pumps → Medium Adjustments → Stability
         ↖───────────────────────────────────────────────────────↙
