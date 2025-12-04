@@ -1,0 +1,17 @@
+
+          ┌─────────────────────────────┐
+          │  SINGLE MEMORY CELL (GEL)   │
+          └─────────────────────────────┘
+
+           Electrode +        Electrode -
+                │                 │
+                ▼                 ▼
+        ┌────────────────────────────────┐
+        │        Gel Micro-Region        │
+        │  (ions, nanoparticles, matrix) │
+        └────────────────────────────────┘
+               ▲         ▲         ▲
+               │         │         │
+           Fast St.   Chem St.  Struct St.
+          (elect.)    (ions)     (gel)
+```
