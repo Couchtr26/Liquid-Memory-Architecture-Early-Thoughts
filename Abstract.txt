@@ -1,0 +1,3 @@
+# ABSTRACT.md
+
+Modern computing faces hard limits in density, thermals, and energy efficiency due to rigid, binary, lithographic architectures. Biological systems—particularly mammalian brains—demonstrate extraordinary information density within soft, liquid–gel environments. This project explores a conceptual architecture for engineered liquid memory systems using ionic media, hydrogels, microchannels, microfluidic maintenance loops, and multi-layer state encoding. Electrical, chemical, and structural states interact to form high-density, analog, dynamic memory representations that may surpass silicon-based methods.
